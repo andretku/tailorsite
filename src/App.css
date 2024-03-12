@@ -1,42 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* mulish-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mulish-v13-cyrillic_latin-regular.woff2') format('woff2');
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/mulish-v13-cyrillic_latin-700.woff2') format('woff2');
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-display: swap;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/mulish-v13-cyrillic_latin-900.woff2') format('woff2');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+:root {
+  --main: #6d0810;
+  --boxShadow: 10px 10px 10px -10px rgba(42, 4, 9, 0.831), inset 10px 10px 10px -10px rgba(67, 2, 13, 0.6);
+  --boxShadowHover: 30px 30px 30px -30px rgba(103, 16, 20, 0.8), inset 40px 40px 40px -40px rgba(97, 10, 24, 0.9);
+  --boxShadowActive: 30px 30px 30px -30px rgba(103, 16, 28, 0.8), inset;
 }
 
-.card {
-  padding: 2em;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: 0.2s ease-in;
 }
 
-.read-the-docs {
-  color: #888;
+*::selection {
+  background: var(--main);
+  color: #fff;
+}
+
+section {
+  padding-inline: 200px;
+  margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-block: 20px;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #ccc;
+  border-bottom: 0.1px dashed #ccc;
+  width: max-content;
+}
+
+h5 {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+h6 {
+  font-weight: 800;
+  font-size: 20px;
+  color: #343333;
+  margin-top: 40px;
+}
+
+.content {
+  margin: 30px 0;
+  font-size: 16px;
 }

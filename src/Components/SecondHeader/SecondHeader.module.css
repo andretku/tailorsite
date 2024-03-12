@@ -1,0 +1,8 @@
+.SecondHeader {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(/assets/SecondHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}

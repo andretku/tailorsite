@@ -1,0 +1,59 @@
+.OurBlogs .Blogsrow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 20px;
+}
+
+.OurBlogs .Blogsrow .BlogsBox {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: var(--boxShadow);
+    position: relative;
+}
+
+.BlogsBox:hover {
+    transform: scale(1.01);
+    box-shadow: var(--boxShadowHover);
+
+}
+
+.OurBlogs .BlogsBox img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.OurBlogs .BlogsBox .BlogsBoxContent {
+    padding: 15px;
+}
+
+.BlogsBoxContent h6 {
+    font-weight: 800;
+    font-size: 18px;
+    width: 35ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.BlogsBoxContent p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-bottom: 9px;
+}
+
+.LinkBtn {
+    width: max-content;
+    background: var(--main);
+    font-weight: 800;
+    border-radius: 999px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 18px;
+}

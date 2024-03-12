@@ -1,0 +1,22 @@
+.SuitsOffice {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(/assets/WorkOffice/Home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.SuitsOfficeContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.SuitsOfficeContent h6 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+}

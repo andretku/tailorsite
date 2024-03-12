@@ -1,0 +1,14 @@
+.Aboutus {
+    display: flex;
+    gap: 20px;
+}
+
+.Aboutus div {
+    flex: 1;
+}
+
+.Aboutus div img {
+    height: 450px;
+    width: 850px;
+    object-fit: cover;
+}

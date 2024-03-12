@@ -1,0 +1,59 @@
+.ViewBlogHome {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0.9)), url(/assets/HomeBg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.ViewBlogRow {
+    display: flex;
+    gap: 20px;
+}
+
+.ViewBlogRow img {
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+}
+
+.BlogContent {
+    padding: 10px;
+}
+
+.BlogContent h6 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.BlogContent .BlogIntro {
+    border-left: 20px solid var(--main);
+    margin-block: 20px;
+    padding: 20px;
+    box-shadow: var(--boxShadow);
+}
+
+.BlogContent .BlogDesc {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.BlogContent div {
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+    width: max-content;
+    border-left: 20px solid var(--main);
+    gap: 5px;
+}
+
+.BlogContent div span {
+    font-weight: 800;
+}
+
+.BlogContent div span span {
+    color: var(--main);
+    font-weight: 900;
+}

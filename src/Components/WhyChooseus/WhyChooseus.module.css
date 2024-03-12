@@ -1,0 +1,14 @@
+.WhyChooseus {
+    display: flex;
+    gap: 10px;
+}
+
+.WhyChooseus div {
+    flex: 1;
+}
+
+.WhyChooseus div img {
+    height: 450px;
+    width: 750px;
+    object-fit: cover;
+}

@@ -1,0 +1,18 @@
+.btn {
+    background: var(--main);
+    opacity: 0.8;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 24px;
+}
+
+.btn:hover {
+    opacity: 1;
+    box-shadow: var(--boxShadowHover);
+}
+
+.btn:active {
+    box-shadow: var(--boxShadowActive);
+}

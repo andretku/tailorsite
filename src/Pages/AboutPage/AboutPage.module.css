@@ -1,0 +1,21 @@
+.AboutPage {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/assets/AboutBg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.AboutPageContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.AboutPage .AboutPageContent h6 {
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
